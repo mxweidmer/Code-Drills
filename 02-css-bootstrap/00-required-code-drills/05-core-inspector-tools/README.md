@@ -10,3 +10,4 @@ Instead, using dev tools, see if you can navigate the page by deleting the eleme
 
 Next, scroll through and pick your favorite logo. Once you click on it, you may need to use your dev magic again. You won't be able to simply copy the image address like you can with other images. Instead, see if you can find a way to get the image src using dev tools.
 
+After deleting the popup the page stopped working. Wouldn't scroll, and none of the elements listed in the panel corresponded to anything except the body.

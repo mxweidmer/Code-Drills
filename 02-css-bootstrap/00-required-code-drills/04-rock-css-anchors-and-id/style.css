@@ -17,6 +17,18 @@
   position: relative;
 }
 
+.second {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  position: relative;
+}
+
+.anchor {
+  font-size: 30px;
+  color: greenyellow;
+}
+
 .box-1 {
   position: absolute;
   left:0;
