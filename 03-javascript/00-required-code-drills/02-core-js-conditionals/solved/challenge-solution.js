@@ -7,6 +7,7 @@
 var characterOneName = "Mr. Farley";
 
 // assign a new value "Ms. Farley" to the variable `characterOneName`
+// why is this var here?
 var characterOneName = "Ms. Farley";
 
 // make a new variable `characterOneAge` and assign it an age of your choice
@@ -47,9 +48,11 @@ var characterOneYearlySavings = characterOneSalary - (characterOneYearlyRent + c
 // Character Two
 
 // make a variable called `characterOneName` and assign it to be a string of "Mr. Snuggles"
+//                          chartwo ^
 var characterTwoName = "Mr. Snuggles";
 
 // make a new variable ``characterOneAge`` and assign it to be the number 8
+// shouldn't this be charTwoAge ^
 var characterTwoAge = 8;
 
 // make a variable called `characterTwoProfession` and assign it a value of "Accountant"

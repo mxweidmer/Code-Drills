@@ -4,10 +4,15 @@
 
 // Using the `confirm` method, welcome the user to the Boba Shop and ask them if they would like a boba
 // Store the user response in a variable `wantsBoba`
-
+var wantsBoba = confirm("Welcome to the shop, would you like a boba?");
 
 // Create an if statement checking whether the user wanted boba from the earlier `confirm` dialogue
-
+if(wantsBoba) {
+    var drinkFlavor = prompt("Drink flavor?")
+    document.write("Your" + drinkFlavor + " drink will be ready soon")
+} else {
+    document.write("Goodbye! Come back soon!")
+}
 
 
     // Declare a variable `drinkFlavor`
