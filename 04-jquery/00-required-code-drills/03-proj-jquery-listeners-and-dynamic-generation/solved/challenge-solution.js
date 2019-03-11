@@ -9,6 +9,7 @@ $(document).ready(function () {
   var body = $("body")
 
   // 1.3 create a variable called btns and assign the result of calling the "find" method on the body variable to find the element with an id of "buttons"
+  // this can be used to search for elements in the DOM?
   var btns = body.find("#buttons");
 
   // Section 2 : DYNAMICALLY the text on the button

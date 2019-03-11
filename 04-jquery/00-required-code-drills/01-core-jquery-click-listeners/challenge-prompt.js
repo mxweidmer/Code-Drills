@@ -8,8 +8,29 @@ $(document).ready(function () {
     // You will need to set up an on click listener for each letter
     //
     // Within the document, set an on click listener for the element with a class of "letterA"
+    $(".letterA").on("click", function() {
+        $("#text-div").append("A")
+    }) 
+    $(".letterB").on("click", function() {
+        $("#text-div").append("B")
+    })
+    $(".letterC").on("click", function() {
+        $("#text-div").append("C")
+    })
+    $(".letterD").on("click", function() {
+        $("#text-div").append("D")
+    })
+    $(".letterE").on("click", function() {
+        $("#text-div").append("E")
+    })
+    $(".letterF").on("click", function() {
+        $("#text-div").append("F")
+    })
+    $(".letterG").on("click", function() {
+        $("#text-div").append("G")
+    })
 
-    
+    // and on and on with different letters
         // When that element is clicked, append the string "A" to the `text-div` element
 
         
